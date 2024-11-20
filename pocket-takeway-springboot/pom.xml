@@ -9,7 +9,7 @@
         <version>2.7.3</version>
     </parent>
     <groupId>com.pocket</groupId>
-    <artifactId>pocket-takeway</artifactId>
+    <artifactId>pocket-takeway-springboot</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
