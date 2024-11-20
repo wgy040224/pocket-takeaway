@@ -2,7 +2,9 @@ package com.pocket.service;
 
 import com.pocket.dto.EmployeeDTO;
 import com.pocket.dto.EmployeeLoginDTO;
+import com.pocket.dto.EmployeePageQueryDTO;
 import com.pocket.entity.Employee;
+import com.pocket.result.PageResult;
 
 public interface EmployeeService {
 
@@ -18,4 +20,11 @@ public interface EmployeeService {
      * @param employeeDTO
      */
     void save(EmployeeDTO employeeDTO);
+
+    /**
+     * 分页查询
+     * @param employeePageQueryDTO
+     * @return
+     */
+    PageResult pageQuery(EmployeePageQueryDTO employeePageQueryDTO);
 }

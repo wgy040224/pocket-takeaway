@@ -4,104 +4,45 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ae2b2ed-4a5a-45c6-bab7-b5a7f2a4b476" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-common/src/main/java/com/pocket/constant/AutoFillConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-common/src/main/java/com/pocket/constant/JwtClaimsConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-common/src/main/java/com/pocket/constant/MessageConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-common/src/main/java/com/pocket/constant/PasswordConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-common/src/main/java/com/pocket/constant/StatusConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-common/src/main/java/com/pocket/context/BaseContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-common/src/main/java/com/pocket/enumeration/OperationType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-common/src/main/java/com/pocket/exception/AccountLockedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-common/src/main/java/com/pocket/exception/AccountNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-common/src/main/java/com/pocket/exception/AddressBookBusinessException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-common/src/main/java/com/pocket/exception/BaseException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-common/src/main/java/com/pocket/exception/DeletionNotAllowedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-common/src/main/java/com/pocket/exception/LoginFailedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-common/src/main/java/com/pocket/exception/OrderBusinessException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-common/src/main/java/com/pocket/exception/PasswordEditFailedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-common/src/main/java/com/pocket/exception/PasswordErrorException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-common/src/main/java/com/pocket/exception/SetmealEnableFailedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-common/src/main/java/com/pocket/exception/ShoppingCartBusinessException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-common/src/main/java/com/pocket/exception/UserNotLoginException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-common/src/main/java/com/pocket/json/JacksonObjectMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-common/src/main/java/com/pocket/properties/AliOssProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-common/src/main/java/com/pocket/properties/JwtProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-common/src/main/java/com/pocket/properties/WeChatProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-common/src/main/java/com/pocket/result/PageResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-common/src/main/java/com/pocket/result/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-common/src/main/java/com/pocket/utils/AliOssUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-common/src/main/java/com/pocket/utils/HttpClientUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-common/src/main/java/com/pocket/utils/JwtUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-common/src/main/java/com/pocket/utils/WeChatPayUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-pojo/src/main/java/com/pocket/dto/CategoryDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-pojo/src/main/java/com/pocket/dto/CategoryPageQueryDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-pojo/src/main/java/com/pocket/dto/DataOverViewQueryDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-pojo/src/main/java/com/pocket/dto/DishDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-pojo/src/main/java/com/pocket/dto/DishPageQueryDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-pojo/src/main/java/com/pocket/dto/EmployeeDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-pojo/src/main/java/com/pocket/dto/EmployeeLoginDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-pojo/src/main/java/com/pocket/dto/EmployeePageQueryDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-pojo/src/main/java/com/pocket/dto/GoodsSalesDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-pojo/src/main/java/com/pocket/dto/OrdersCancelDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-pojo/src/main/java/com/pocket/dto/OrdersConfirmDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-pojo/src/main/java/com/pocket/dto/OrdersDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-pojo/src/main/java/com/pocket/dto/OrdersPageQueryDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-pojo/src/main/java/com/pocket/dto/OrdersPaymentDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-pojo/src/main/java/com/pocket/dto/OrdersRejectionDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-pojo/src/main/java/com/pocket/dto/OrdersSubmitDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-pojo/src/main/java/com/pocket/dto/PasswordEditDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-pojo/src/main/java/com/pocket/dto/SetmealDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-pojo/src/main/java/com/pocket/dto/SetmealPageQueryDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-pojo/src/main/java/com/pocket/dto/ShoppingCartDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-pojo/src/main/java/com/pocket/dto/UserLoginDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-pojo/src/main/java/com/pocket/entity/AddressBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-pojo/src/main/java/com/pocket/entity/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-pojo/src/main/java/com/pocket/entity/Dish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-pojo/src/main/java/com/pocket/entity/DishFlavor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-pojo/src/main/java/com/pocket/entity/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-pojo/src/main/java/com/pocket/entity/OrderDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-pojo/src/main/java/com/pocket/entity/Orders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-pojo/src/main/java/com/pocket/entity/Setmeal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-pojo/src/main/java/com/pocket/entity/SetmealDish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-pojo/src/main/java/com/pocket/entity/ShoppingCart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-pojo/src/main/java/com/pocket/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-pojo/src/main/java/com/pocket/vo/BusinessDataVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-pojo/src/main/java/com/pocket/vo/DishItemVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-pojo/src/main/java/com/pocket/vo/DishOverViewVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-pojo/src/main/java/com/pocket/vo/DishVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-pojo/src/main/java/com/pocket/vo/EmployeeLoginVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-pojo/src/main/java/com/pocket/vo/OrderOverViewVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-pojo/src/main/java/com/pocket/vo/OrderPaymentVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-pojo/src/main/java/com/pocket/vo/OrderReportVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-pojo/src/main/java/com/pocket/vo/OrderStatisticsVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-pojo/src/main/java/com/pocket/vo/OrderSubmitVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-pojo/src/main/java/com/pocket/vo/OrderVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-pojo/src/main/java/com/pocket/vo/SalesTop10ReportVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-pojo/src/main/java/com/pocket/vo/SetmealOverViewVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-pojo/src/main/java/com/pocket/vo/SetmealVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-pojo/src/main/java/com/pocket/vo/TurnoverReportVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-pojo/src/main/java/com/pocket/vo/UserLoginVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-pojo/src/main/java/com/pocket/vo/UserReportVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/PocketApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/config/WebMvcConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/controller/admin/EmployeeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/handler/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/interceptor/JwtTokenAdminInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/mapper/EmployeeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/service/EmployeeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/service/impl/EmployeeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/resources/mapper/EmployeeMapper.xml" afterDir="false" />
+    <list default="true" id="4ae2b2ed-4a5a-45c6-bab7-b5a7f2a4b476" name="Changes" comment="员工分页查询业务代码开发">
+      <change afterPath="$PROJECT_DIR$/pocket-takeway-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pocket-takeway-pojo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pocket-takeway-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-takeway-pojo/src/main/java/com/pocket/entity/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-pojo/src/main/java/com/pocket/entity/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/config/WebMvcConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/config/WebMvcConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/controller/admin/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/controller/admin/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/mapper/EmployeeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/mapper/EmployeeMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/service/EmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/service/impl/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-takeway-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-takeway-server/src/main/resources/mapper/EmployeeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/resources/mapper/EmployeeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-takeway-server/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-server/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-takeway-server/target/classes/com/pocket/config/WebMvcConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-server/target/classes/com/pocket/config/WebMvcConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-takeway-server/target/classes/com/pocket/controller/admin/EmployeeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-server/target/classes/com/pocket/controller/admin/EmployeeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-takeway-server/target/classes/com/pocket/mapper/EmployeeMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-server/target/classes/com/pocket/mapper/EmployeeMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-takeway-server/target/classes/com/pocket/service/EmployeeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-server/target/classes/com/pocket/service/EmployeeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-takeway-server/target/classes/com/pocket/service/impl/EmployeeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-server/target/classes/com/pocket/service/impl/EmployeeServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-takeway-server/target/classes/mapper/EmployeeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-server/target/classes/mapper/EmployeeMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "wgy040224"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:wgy040224/pocket-takeaway.git",
+    "accountId": "273b1b0d-1ff7-4382-bd52-4faf352c6731"
+  }
+}]]></component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -121,36 +62,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Maven.pocket-takeway [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.pocket-takeway [compile].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.pocket-takeway [package].executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;Spring Boot.PocketApplication.executor&quot;: &quot;Debug&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/Combat projects/pocket takeaway/pocket-takeway-springboot&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.3678161&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.pocket-takeway [clean].executor": "Run",
+    "Maven.pocket-takeway [compile].executor": "Run",
+    "Maven.pocket-takeway [package].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.PocketApplication.executor": "Debug",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "F:/Combat projects/pocket takeaway/pocket-takeway-springboot",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.3678161",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -191,6 +132,7 @@
       <workItem from="1732102730080" duration="36000" />
       <workItem from="1732102776190" duration="12000" />
       <workItem from="1732102799304" duration="254000" />
+      <workItem from="1732103088416" duration="4857000" />
     </task>
     <servers />
   </component>
@@ -208,20 +150,8 @@
     <option featureType="dependencySupport" implementationName="java:org.springframework:spring-webmvc" />
     <option featureType="dependencySupport" implementationName="java:org.projectlombok:lombok" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/interceptor/JwtTokenAdminInterceptor.java</url>
-          <line>51</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/service/impl/EmployeeServiceImpl.java</url>
-          <line>86</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="员工分页查询业务代码开发" />
+    <option name="LAST_COMMIT_MESSAGE" value="员工分页查询业务代码开发" />
   </component>
 </project>
