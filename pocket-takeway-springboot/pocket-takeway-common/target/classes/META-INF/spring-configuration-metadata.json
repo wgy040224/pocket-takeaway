@@ -31,7 +31,8 @@
     {
       "name": "pocket.jwt.admin-ttl",
       "type": "java.lang.Long",
-      "sourceType": "com.pocket.properties.JwtProperties"
+      "sourceType": "com.pocket.properties.JwtProperties",
+      "defaultValue": 0
     },
     {
       "name": "pocket.jwt.user-secret-key",
@@ -47,7 +48,8 @@
     {
       "name": "pocket.jwt.user-ttl",
       "type": "java.lang.Long",
-      "sourceType": "com.pocket.properties.JwtProperties"
+      "sourceType": "com.pocket.properties.JwtProperties",
+      "defaultValue": 0
     },
     {
       "name": "sky.alioss.access-key-id",

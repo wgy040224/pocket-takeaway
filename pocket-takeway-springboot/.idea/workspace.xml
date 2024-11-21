@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ae2b2ed-4a5a-45c6-bab7-b5a7f2a4b476" name="Changes" comment="启用禁用员工账号业务代码开发">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/controller/admin/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/controller/admin/EmployeeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/mapper/EmployeeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/mapper/EmployeeMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/service/EmployeeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/service/impl/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/service/impl/EmployeeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-takeway-server/target/classes/com/pocket/controller/admin/EmployeeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-server/target/classes/com/pocket/controller/admin/EmployeeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-takeway-server/target/classes/com/pocket/mapper/EmployeeMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-server/target/classes/com/pocket/mapper/EmployeeMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-takeway-server/target/classes/com/pocket/service/EmployeeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-server/target/classes/com/pocket/service/EmployeeService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-takeway-server/target/classes/com/pocket/service/impl/EmployeeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-server/target/classes/com/pocket/service/impl/EmployeeServiceImpl.class" afterDir="false" />
+    <list default="true" id="4ae2b2ed-4a5a-45c6-bab7-b5a7f2a4b476" name="Changes" comment="编辑员工业务代码开发">
+      <change afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/mapper/CategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/mapper/DishMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/mapper/SetmealMapper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +59,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Spring Boot.PocketApplication.executor": "Debug",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "F:/Combat projects/pocket takeaway/pocket-takeway-springboot",
+    "last_opened_file_path": "F:/Combat projects/pocket takeaway/pocket-takeway-springboot/pocket-takeway-server/src/main/java/com/pocket/mapper",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -124,7 +118,7 @@
       <workItem from="1732102776190" duration="12000" />
       <workItem from="1732102799304" duration="254000" />
       <workItem from="1732103088416" duration="5117000" />
-      <workItem from="1732150543638" duration="5997000" />
+      <workItem from="1732150543638" duration="6356000" />
     </task>
     <task id="LOCAL-00001" summary="员工分页查询业务代码开发">
       <option name="closed" value="true" />
@@ -150,7 +144,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732155216239</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="编辑员工业务代码开发">
+      <option name="closed" value="true" />
+      <created>1732157094898</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1732157094898</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +172,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="员工分页查询业务代码开发" />
     <MESSAGE value="启用禁用员工账号业务代码开发" />
-    <option name="LAST_COMMIT_MESSAGE" value="启用禁用员工账号业务代码开发" />
+    <MESSAGE value="编辑员工业务代码开发" />
+    <option name="LAST_COMMIT_MESSAGE" value="编辑员工业务代码开发" />
   </component>
 </project>

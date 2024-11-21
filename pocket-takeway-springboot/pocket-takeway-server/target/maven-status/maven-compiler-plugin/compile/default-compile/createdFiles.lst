@@ -1,8 +1,14 @@
-com\pocket\mapper\EmployeeMapper.class
 com\pocket\controller\admin\EmployeeController.class
-com\pocket\service\impl\EmployeeServiceImpl.class
+com\pocket\mapper\CategoryMapper.class
 com\pocket\config\WebMvcConfiguration.class
+com\pocket\service\impl\CategoryServiceImpl.class
 com\pocket\PocketApplication.class
 com\pocket\service\EmployeeService.class
 com\pocket\interceptor\JwtTokenAdminInterceptor.class
+com\pocket\mapper\DishMapper.class
+com\pocket\mapper\SetmealMapper.class
+com\pocket\mapper\EmployeeMapper.class
+com\pocket\service\impl\EmployeeServiceImpl.class
+com\pocket\controller\admin\CategoryController.class
 com\pocket\handler\GlobalExceptionHandler.class
+com\pocket\service\CategoryService.class
