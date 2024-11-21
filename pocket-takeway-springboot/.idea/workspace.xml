@@ -5,30 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ae2b2ed-4a5a-45c6-bab7-b5a7f2a4b476" name="Changes" comment="员工分页查询业务代码开发">
-      <change beforePath="$PROJECT_DIR$/pocket-takeway-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-takeway-pojo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-pojo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-takeway-pojo/target/classes/com/pocket/entity/Employee$EmployeeBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-pojo/target/classes/com/pocket/entity/Employee$EmployeeBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-takeway-pojo/target/classes/com/pocket/entity/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-pojo/target/classes/com/pocket/entity/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-takeway-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-takeway-common/src/main/java/com/pocket/properties/JwtProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-common/src/main/java/com/pocket/properties/JwtProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-takeway-common/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-common/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-takeway-common/target/classes/com/pocket/properties/JwtProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-common/target/classes/com/pocket/properties/JwtProperties.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/controller/admin/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/controller/admin/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/mapper/EmployeeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/mapper/EmployeeMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/service/EmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/service/impl/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-takeway-server/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-takeway-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-takeway-server/src/main/resources/mapper/EmployeeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/resources/mapper/EmployeeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-takeway-server/target/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-server/target/classes/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-takeway-server/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-server/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-takeway-server/target/classes/com/pocket/controller/admin/EmployeeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-server/target/classes/com/pocket/controller/admin/EmployeeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-takeway-server/target/classes/com/pocket/mapper/EmployeeMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-server/target/classes/com/pocket/mapper/EmployeeMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-takeway-server/target/classes/com/pocket/service/EmployeeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-server/target/classes/com/pocket/service/EmployeeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-takeway-server/target/classes/com/pocket/service/impl/EmployeeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-server/target/classes/com/pocket/service/impl/EmployeeServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-takeway-server/target/classes/mapper/EmployeeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-server/target/classes/mapper/EmployeeMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "wgy040224"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;wgy040224&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:wgy040224/pocket-takeaway.git",
-    "accountId": "273b1b0d-1ff7-4382-bd52-4faf352c6731"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:wgy040224/pocket-takeaway.git&quot;,
+    &quot;accountId&quot;: &quot;273b1b0d-1ff7-4382-bd52-4faf352c6731&quot;
   }
-}]]></component>
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -53,6 +65,8 @@
     "Maven.pocket-takeway [clean].executor": "Run",
     "Maven.pocket-takeway [compile].executor": "Run",
     "Maven.pocket-takeway [package].executor": "Run",
+    "Maven.pocket-takeway-springboot [clean].executor": "Run",
+    "Maven.pocket-takeway-springboot [compile].executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -118,7 +132,8 @@
       <workItem from="1732102730080" duration="36000" />
       <workItem from="1732102776190" duration="12000" />
       <workItem from="1732102799304" duration="254000" />
-      <workItem from="1732103088416" duration="4985000" />
+      <workItem from="1732103088416" duration="5117000" />
+      <workItem from="1732150543638" duration="4046000" />
     </task>
     <task id="LOCAL-00001" summary="员工分页查询业务代码开发">
       <option name="closed" value="true" />
@@ -128,7 +143,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732110199133</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="员工分页查询业务代码开发">
+      <option name="closed" value="true" />
+      <created>1732110283318</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1732110283318</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,5 +171,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="员工分页查询业务代码开发" />
     <option name="LAST_COMMIT_MESSAGE" value="员工分页查询业务代码开发" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/controller/admin/EmployeeController.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
