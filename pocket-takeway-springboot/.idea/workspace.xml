@@ -4,15 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ae2b2ed-4a5a-45c6-bab7-b5a7f2a4b476" name="Changes" comment="编辑员工业务代码开发">
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/mapper/CategoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/mapper/DishMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/mapper/SetmealMapper.java" afterDir="false" />
+    <list default="true" id="4ae2b2ed-4a5a-45c6-bab7-b5a7f2a4b476" name="Changes" comment="分类管理模块功能代码开发">
+      <change afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/annotation/AutoFill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/aspect/AutoFillAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/mapper/CategoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/mapper/CategoryMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/mapper/EmployeeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/mapper/EmployeeMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/service/impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/service/impl/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-takeway-server/target/classes/com/pocket/mapper/EmployeeMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-server/target/classes/com/pocket/mapper/EmployeeMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-takeway-server/target/classes/com/pocket/service/impl/EmployeeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-server/target/classes/com/pocket/service/impl/EmployeeServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -59,7 +73,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Spring Boot.PocketApplication.executor": "Debug",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "F:/Combat projects/pocket takeaway/pocket-takeway-springboot/pocket-takeway-server/src/main/java/com/pocket/mapper",
+    "last_opened_file_path": "F:/Combat projects/pocket takeaway/pocket-takeway-springboot/pocket-takeway-server/src/main/java/com/pocket/controller/admin",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -79,6 +93,15 @@
 }]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Combat projects\pocket takeaway\pocket-takeway-springboot\pocket-takeway-server\src\main\java\com\pocket\controller\admin" />
+      <recent name="F:\Combat projects\pocket takeaway\pocket-takeway-springboot\pocket-takeway-server\src\main\java\com\pocket\service\impl" />
+      <recent name="F:\Combat projects\pocket takeaway\pocket-takeway-springboot\pocket-takeway-server\src\main\java\com\pocket\service" />
+      <recent name="F:\Combat projects\pocket takeaway\pocket-takeway-springboot\pocket-takeway-server\src\main\resources\mapper" />
+      <recent name="F:\Combat projects\pocket takeaway\pocket-takeway-springboot\pocket-takeway-server\src\main\java\com\pocket\mapper" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="PocketApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
@@ -118,7 +141,7 @@
       <workItem from="1732102776190" duration="12000" />
       <workItem from="1732102799304" duration="254000" />
       <workItem from="1732103088416" duration="5117000" />
-      <workItem from="1732150543638" duration="6356000" />
+      <workItem from="1732150543638" duration="11793000" />
     </task>
     <task id="LOCAL-00001" summary="员工分页查询业务代码开发">
       <option name="closed" value="true" />
@@ -152,7 +175,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732157094898</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="分类管理模块功能代码开发">
+      <option name="closed" value="true" />
+      <created>1732157802949</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1732157802949</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,6 +204,18 @@
     <MESSAGE value="员工分页查询业务代码开发" />
     <MESSAGE value="启用禁用员工账号业务代码开发" />
     <MESSAGE value="编辑员工业务代码开发" />
-    <option name="LAST_COMMIT_MESSAGE" value="编辑员工业务代码开发" />
+    <MESSAGE value="分类管理模块功能代码开发" />
+    <option name="LAST_COMMIT_MESSAGE" value="分类管理模块功能代码开发" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/aspect/AutoFillAspect.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
