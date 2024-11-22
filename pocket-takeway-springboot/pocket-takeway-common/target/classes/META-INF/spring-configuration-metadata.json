@@ -1,22 +1,42 @@
 {
   "groups": [
     {
+      "name": "pocket.alioss",
+      "type": "com.pocket.properties.AliOssProperties",
+      "sourceType": "com.pocket.properties.AliOssProperties"
+    },
+    {
       "name": "pocket.jwt",
       "type": "com.pocket.properties.JwtProperties",
       "sourceType": "com.pocket.properties.JwtProperties"
     },
     {
-      "name": "sky.alioss",
-      "type": "com.pocket.properties.AliOssProperties",
-      "sourceType": "com.pocket.properties.AliOssProperties"
-    },
-    {
-      "name": "sky.wechat",
+      "name": "pocket.wechat",
       "type": "com.pocket.properties.WeChatProperties",
       "sourceType": "com.pocket.properties.WeChatProperties"
     }
   ],
   "properties": [
+    {
+      "name": "pocket.alioss.access-key-id",
+      "type": "java.lang.String",
+      "sourceType": "com.pocket.properties.AliOssProperties"
+    },
+    {
+      "name": "pocket.alioss.access-key-secret",
+      "type": "java.lang.String",
+      "sourceType": "com.pocket.properties.AliOssProperties"
+    },
+    {
+      "name": "pocket.alioss.bucket-name",
+      "type": "java.lang.String",
+      "sourceType": "com.pocket.properties.AliOssProperties"
+    },
+    {
+      "name": "pocket.alioss.endpoint",
+      "type": "java.lang.String",
+      "sourceType": "com.pocket.properties.AliOssProperties"
+    },
     {
       "name": "pocket.jwt.admin-secret-key",
       "type": "java.lang.String",
@@ -52,67 +72,47 @@
       "defaultValue": 0
     },
     {
-      "name": "sky.alioss.access-key-id",
-      "type": "java.lang.String",
-      "sourceType": "com.pocket.properties.AliOssProperties"
-    },
-    {
-      "name": "sky.alioss.access-key-secret",
-      "type": "java.lang.String",
-      "sourceType": "com.pocket.properties.AliOssProperties"
-    },
-    {
-      "name": "sky.alioss.bucket-name",
-      "type": "java.lang.String",
-      "sourceType": "com.pocket.properties.AliOssProperties"
-    },
-    {
-      "name": "sky.alioss.endpoint",
-      "type": "java.lang.String",
-      "sourceType": "com.pocket.properties.AliOssProperties"
-    },
-    {
-      "name": "sky.wechat.api-v3-key",
+      "name": "pocket.wechat.api-v3-key",
       "type": "java.lang.String",
       "sourceType": "com.pocket.properties.WeChatProperties"
     },
     {
-      "name": "sky.wechat.appid",
+      "name": "pocket.wechat.appid",
       "type": "java.lang.String",
       "sourceType": "com.pocket.properties.WeChatProperties"
     },
     {
-      "name": "sky.wechat.mch-serial-no",
+      "name": "pocket.wechat.mch-serial-no",
       "type": "java.lang.String",
       "sourceType": "com.pocket.properties.WeChatProperties"
     },
     {
-      "name": "sky.wechat.mchid",
+      "name": "pocket.wechat.mchid",
       "type": "java.lang.String",
       "sourceType": "com.pocket.properties.WeChatProperties"
     },
     {
-      "name": "sky.wechat.notify-url",
+      "name": "pocket.wechat.notify-url",
       "type": "java.lang.String",
       "sourceType": "com.pocket.properties.WeChatProperties"
     },
     {
-      "name": "sky.wechat.private-key-file-path",
+      "name": "pocket.wechat.private-key-file-path",
       "type": "java.lang.String",
       "sourceType": "com.pocket.properties.WeChatProperties"
     },
     {
-      "name": "sky.wechat.refund-notify-url",
+      "name": "pocket.wechat.refund-notify-url",
       "type": "java.lang.String",
       "sourceType": "com.pocket.properties.WeChatProperties"
     },
     {
-      "name": "sky.wechat.secret",
+      "name": "pocket.wechat.secret",
       "type": "java.lang.String",
       "sourceType": "com.pocket.properties.WeChatProperties"
     },
     {
-      "name": "sky.wechat.we-chat-pay-cert-file-path",
+      "name": "pocket.wechat.we-chat-pay-cert-file-path",
       "type": "java.lang.String",
       "sourceType": "com.pocket.properties.WeChatProperties"
     }

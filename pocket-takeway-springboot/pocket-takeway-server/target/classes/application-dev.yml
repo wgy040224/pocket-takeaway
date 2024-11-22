@@ -6,3 +6,4 @@ pocket:
     database: pocket_takeway
     username: root
     password: "040224"
+  alioss:
