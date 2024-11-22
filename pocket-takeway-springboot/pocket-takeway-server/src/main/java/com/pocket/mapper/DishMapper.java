@@ -1,8 +1,11 @@
 package com.pocket.mapper;
 
+import com.github.pagehelper.Page;
 import com.pocket.annotation.AutoFill;
+import com.pocket.dto.DishPageQueryDTO;
 import com.pocket.entity.Dish;
 import com.pocket.enumeration.OperationType;
+import com.pocket.vo.DishVO;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
 
@@ -24,4 +27,11 @@ public interface DishMapper {
      */
     @AutoFill(value = OperationType.INSERT)
     void insert(Dish dish);
+
+    /**
+     * 菜品分页查询
+     * @param dishPageQueryDTO
+     * @return
+     */
+    Page<DishVO> pageQuery(DishPageQueryDTO dishPageQueryDTO);
 }

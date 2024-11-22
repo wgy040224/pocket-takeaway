@@ -4,25 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ae2b2ed-4a5a-45c6-bab7-b5a7f2a4b476" name="Changes" comment="新增菜品业务代码开发">
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/config/OssConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/controller/admin/CommonController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/controller/admin/DishController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/mapper/DishFlavorMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/service/DishService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/service/impl/DishServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/resources/mapper/DishFlavorMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/resources/mapper/DishMapper.xml" afterDir="false" />
+    <list default="true" id="4ae2b2ed-4a5a-45c6-bab7-b5a7f2a4b476" name="Changes" comment="新增菜品分页查询功能开发">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-takeway-common/src/main/java/com/pocket/properties/AliOssProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-common/src/main/java/com/pocket/properties/AliOssProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-takeway-common/src/main/java/com/pocket/properties/WeChatProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-common/src/main/java/com/pocket/properties/WeChatProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-takeway-common/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-common/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-takeway-common/target/classes/com/pocket/properties/AliOssProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-common/target/classes/com/pocket/properties/AliOssProperties.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-takeway-common/target/classes/com/pocket/properties/WeChatProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-common/target/classes/com/pocket/properties/WeChatProperties.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/controller/admin/DishController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/controller/admin/DishController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/mapper/DishMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/mapper/DishMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-takeway-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/service/DishService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/service/DishService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/service/impl/DishServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/service/impl/DishServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-takeway-server/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-takeway-server/src/main/resources/mapper/DishMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/resources/mapper/DishMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pocket-takeway-server/target/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-server/target/classes/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-takeway-server/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-server/target/classes/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +47,9 @@
         <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -152,7 +145,7 @@
       <workItem from="1732102799304" duration="254000" />
       <workItem from="1732103088416" duration="5117000" />
       <workItem from="1732150543638" duration="14303000" />
-      <workItem from="1732244527268" duration="6951000" />
+      <workItem from="1732244527268" duration="8744000" />
     </task>
     <task id="LOCAL-00001" summary="员工分页查询业务代码开发">
       <option name="closed" value="true" />
@@ -258,7 +251,31 @@
       <option name="project" value="LOCAL" />
       <updated>1732263951161</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="新增菜品业务代码开发">
+      <option name="closed" value="true" />
+      <created>1732264010037</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1732264010037</updated>
+    </task>
+    <task id="LOCAL-00015" summary="新增菜品分页查询功能开发">
+      <option name="closed" value="true" />
+      <created>1732265640254</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1732265640254</updated>
+    </task>
+    <task id="LOCAL-00016" summary="新增菜品分页查询功能开发">
+      <option name="closed" value="true" />
+      <created>1732265762535</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1732265762535</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,7 +310,8 @@
     <MESSAGE value="分类管理模块功能代码开发" />
     <MESSAGE value="公共字段自动填充功能代码开发" />
     <MESSAGE value="新增菜品业务代码开发" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增菜品业务代码开发" />
+    <MESSAGE value="新增菜品分页查询功能开发" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增菜品分页查询功能开发" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -302,16 +320,6 @@
           <url>file://$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/controller/admin/CommonController.java</url>
           <line>44</line>
           <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/service/impl/DishServiceImpl.java</url>
-          <line>41</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/service/impl/DishServiceImpl.java</url>
-          <line>52</line>
-          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

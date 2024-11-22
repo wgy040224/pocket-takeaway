@@ -1,7 +1,9 @@
 package com.pocket.service;
 
 import com.pocket.dto.DishDTO;
+import com.pocket.dto.DishPageQueryDTO;
 import com.pocket.entity.Dish;
+import com.pocket.result.PageResult;
 import org.springframework.beans.factory.annotation.Autowired;
 
 /**
@@ -20,6 +22,10 @@ public interface DishService {
      */
     public void saveWithFlavor(DishDTO dishDTO);
 
-
-
+    /**
+     * 菜品分页查询
+     * @param dishPageQueryDTO
+     * @return
+     */
+    PageResult pageQuery(DishPageQueryDTO dishPageQueryDTO);
 }

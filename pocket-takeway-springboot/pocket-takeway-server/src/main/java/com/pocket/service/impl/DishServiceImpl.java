@@ -1,11 +1,16 @@
 package com.pocket.service.impl;
 
+import com.github.pagehelper.Page;
+import com.github.pagehelper.PageHelper;
 import com.pocket.dto.DishDTO;
+import com.pocket.dto.DishPageQueryDTO;
 import com.pocket.entity.Dish;
 import com.pocket.entity.DishFlavor;
 import com.pocket.mapper.DishFlavorMapper;
 import com.pocket.mapper.DishMapper;
+import com.pocket.result.PageResult;
 import com.pocket.service.DishService;
+import com.pocket.vo.DishVO;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.ibatis.annotations.Select;
 import org.springframework.beans.BeanUtils;
@@ -59,5 +64,17 @@ public class DishServiceImpl implements DishService {
             dishFlavorMapper.insertBatch(flavors);
         }
 
+    }
+
+    /**
+     * 菜品分页查询
+     * @param dishPageQueryDTO
+     * @return
+     */
+    @Override
+    public PageResult pageQuery(DishPageQueryDTO dishPageQueryDTO) {
+        PageHelper.startPage(dishPageQueryDTO.getPage(), dishPageQueryDTO.getPageSize());
+        Page<DishVO> page = dishMapper.pageQuery(dishPageQueryDTO);
+        return new PageResult(page.getTotal(), page.getResult());
     }
 }
