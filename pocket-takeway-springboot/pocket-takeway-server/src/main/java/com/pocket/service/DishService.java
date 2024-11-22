@@ -6,6 +6,8 @@ import com.pocket.entity.Dish;
 import com.pocket.result.PageResult;
 import org.springframework.beans.factory.annotation.Autowired;
 
+import java.util.List;
+
 /**
  * @author sqnugy
  * @version 1.0
@@ -28,4 +30,10 @@ public interface DishService {
      * @return
      */
     PageResult pageQuery(DishPageQueryDTO dishPageQueryDTO);
+
+    /**
+     * 菜品批量删除
+     * @param ids
+     */
+    void deleteBatch(List<Long> ids);
 }
