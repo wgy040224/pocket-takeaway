@@ -3,15 +3,18 @@ package com.pocket.controller.admin;
 import com.pocket.dto.DishDTO;
 import com.pocket.dto.DishPageQueryDTO;
 import com.pocket.entity.Dish;
+import com.pocket.entity.DishFlavor;
 import com.pocket.result.PageResult;
 import com.pocket.result.Result;
 import com.pocket.service.DishService;
+import com.pocket.vo.DishVO;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -67,4 +70,26 @@ public class DishController {
         dishService.deleteBatch(ids);
         return Result.success();
     }
+
+
+    @GetMapping ("/{id}")
+    public Result<DishVO> getById(@PathVariable Long id) {
+        log.info("根据id查询菜品：{}", id);
+        DishVO dishVO = dishService.getByIdWithFlavor(id);
+        return Result.success(dishVO);
+    }
+
+    /**
+     * 修改菜品
+     * @param dishDTO
+     * @return
+     */
+    @PutMapping
+    @ApiOperation("修改菜品")
+    public Result update(@RequestBody DishDTO dishDTO) {
+        log.info("修改菜品：{}", dishDTO);
+        dishService.updateWithFlavor(dishDTO);
+        return Result.success();
+    }
 }
+

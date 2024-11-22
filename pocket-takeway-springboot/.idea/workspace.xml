@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ae2b2ed-4a5a-45c6-bab7-b5a7f2a4b476" name="Changes" comment="删除菜品业务代码开发">
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/mapper/SetMealDishMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/resources/mapper/SetMealDishMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/controller/admin/DishController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/controller/admin/DishController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/mapper/DishFlavorMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/mapper/DishFlavorMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/mapper/DishMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/mapper/DishMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/service/DishService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/service/DishService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/service/impl/DishServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/service/impl/DishServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-takeway-server/src/main/resources/mapper/DishFlavorMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/resources/mapper/DishFlavorMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-takeway-server/src/main/resources/mapper/DishMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/resources/mapper/DishMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pocket-takeway-server/target/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-server/target/classes/application-dev.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -146,7 +146,7 @@
       <workItem from="1732102799304" duration="254000" />
       <workItem from="1732103088416" duration="5117000" />
       <workItem from="1732150543638" duration="14303000" />
-      <workItem from="1732244527268" duration="11664000" />
+      <workItem from="1732244527268" duration="17816000" />
     </task>
     <task id="LOCAL-00001" summary="员工分页查询业务代码开发">
       <option name="closed" value="true" />
@@ -300,7 +300,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732270457115</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="删除菜品业务代码开发">
+      <option name="closed" value="true" />
+      <created>1732270494989</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1732270494989</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -343,9 +351,14 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/controller/admin/CommonController.java</url>
-          <line>44</line>
-          <option name="timeStamp" value="9" />
+          <url>file://$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/service/impl/DishServiceImpl.java</url>
+          <line>120</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/service/impl/DishServiceImpl.java</url>
+          <line>124</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
