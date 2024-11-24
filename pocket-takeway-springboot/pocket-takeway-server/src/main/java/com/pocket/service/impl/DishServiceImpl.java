@@ -11,12 +11,11 @@ import com.pocket.entity.DishFlavor;
 import com.pocket.exception.DeletionNotAllowedException;
 import com.pocket.mapper.DishFlavorMapper;
 import com.pocket.mapper.DishMapper;
-import com.pocket.mapper.SetMealDishMapper;
+import com.pocket.mapper.SetmealDishMapper;
 import com.pocket.result.PageResult;
 import com.pocket.service.DishService;
 import com.pocket.vo.DishVO;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.ibatis.annotations.Select;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -41,7 +40,7 @@ public class DishServiceImpl implements DishService {
     @Autowired
     private DishFlavorMapper dishFlavorMapper;
     @Autowired
-    private SetMealDishMapper setMealDishMapper;
+    private SetmealDishMapper setMealDishMapper;
 
 
     /**
@@ -84,6 +83,19 @@ public class DishServiceImpl implements DishService {
         PageHelper.startPage(dishPageQueryDTO.getPage(), dishPageQueryDTO.getPageSize());
         Page<DishVO> page = dishMapper.pageQuery(dishPageQueryDTO);
         return new PageResult(page.getTotal(), page.getResult());
+    }
+
+    /**
+     * 根据分类id查询菜品
+     * @param categoryId
+     * @return
+     */
+    public List<Dish> list(Long categoryId) {
+        Dish dish = Dish.builder()
+                .categoryId(categoryId)
+                .status(StatusConstant.ENABLE)
+                .build();
+        return dishMapper.list(dish);
     }
 
     /**
