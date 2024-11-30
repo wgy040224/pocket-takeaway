@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ae2b2ed-4a5a-45c6-bab7-b5a7f2a4b476" name="Changes" comment="工作台功能代码开发">
-      <change afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/resources/template/运营数据报表模板.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/controller/admin/ReportController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/controller/admin/ReportController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/service/ReportService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/service/ReportService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/service/impl/ReportServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/java/com/pocket/service/impl/ReportServiceImpl.java" afterDir="false" />
+    <list default="true" id="4ae2b2ed-4a5a-45c6-bab7-b5a7f2a4b476" name="Changes" comment="微信小程序和后端代码开发">
       <change beforePath="$PROJECT_DIR$/pocket-takeway-server/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-server/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-takeway-server/target/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-takeway-server/target/classes/application-dev.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +21,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RESET_MODE" value="SOFT" />
+  </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
     &quot;state&quot;: &quot;OPEN&quot;,
@@ -39,10 +36,10 @@
     &quot;accountId&quot;: &quot;273b1b0d-1ff7-4382-bd52-4faf352c6731&quot;
   }
 }</component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -65,41 +62,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.HttpClientTest.testGet.executor": "Run",
-    "JUnit.HttpClientTest.testPost.executor": "Debug",
-    "JUnit.SpringDataRedisTest.testRedisTemplate.executor": "Debug",
-    "Maven.pocket-takeway [clean].executor": "Run",
-    "Maven.pocket-takeway [compile].executor": "Run",
-    "Maven.pocket-takeway [package].executor": "Run",
-    "Maven.pocket-takeway-springboot [clean].executor": "Run",
-    "Maven.pocket-takeway-springboot [compile].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.PocketApplication.executor": "Debug",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "F:/Combat projects/pocket takeaway/pocket-takeway-springboot/pocket-takeway-server/src/main/resources/template",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.3678161",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.HttpClientTest.testGet.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HttpClientTest.testPost.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.SpringDataRedisTest.testRedisTemplate.executor&quot;: &quot;Debug&quot;,
+    &quot;Maven.pocket-takeway [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.pocket-takeway [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.pocket-takeway [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.pocket-takeway-springboot [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.pocket-takeway-springboot [compile].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.PocketApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/Combat projects/pocket takeaway/pocket-takeway-springboot/pocket-takeway-server/src/main/resources/template&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.3678161&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -228,7 +225,8 @@
       <workItem from="1732782240731" duration="4713000" />
       <workItem from="1732847393232" duration="16074000" />
       <workItem from="1732889450979" duration="56000" />
-      <workItem from="1732932404028" duration="13425000" />
+      <workItem from="1732932404028" duration="15062000" />
+      <workItem from="1732970838234" duration="11000" />
     </task>
     <task id="LOCAL-00001" summary="员工分页查询业务代码开发">
       <option name="closed" value="true" />
@@ -534,7 +532,71 @@
       <option name="project" value="LOCAL" />
       <updated>1732947646851</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="数据导出功能代码开发">
+      <option name="closed" value="true" />
+      <created>1732952547244</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1732952547244</updated>
+    </task>
+    <task id="LOCAL-00040" summary="微信小程序代码开发">
+      <option name="closed" value="true" />
+      <created>1732952612448</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1732952612448</updated>
+    </task>
+    <task id="LOCAL-00041" summary="微信小程序代码开发">
+      <option name="closed" value="true" />
+      <created>1732953189392</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1732953189392</updated>
+    </task>
+    <task id="LOCAL-00042" summary="微信小程序代码开发">
+      <option name="closed" value="true" />
+      <created>1732953264244</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1732953264244</updated>
+    </task>
+    <task id="LOCAL-00043" summary="微信小程序代码开发">
+      <option name="closed" value="true" />
+      <created>1732953392360</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1732953392360</updated>
+    </task>
+    <task id="LOCAL-00044" summary="微信小程序代码开发">
+      <option name="closed" value="true" />
+      <created>1732953556357</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1732953556357</updated>
+    </task>
+    <task id="LOCAL-00045" summary="微信小程序代码开发">
+      <option name="closed" value="true" />
+      <created>1732953826129</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1732953826129</updated>
+    </task>
+    <task id="LOCAL-00046" summary="微信小程序和后端代码开发">
+      <option name="closed" value="true" />
+      <created>1732953849757</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1732953849757</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -581,7 +643,10 @@
     <MESSAGE value="用户统计业务代码开发" />
     <MESSAGE value="销量排名统计业务代码开发" />
     <MESSAGE value="工作台功能代码开发" />
-    <option name="LAST_COMMIT_MESSAGE" value="工作台功能代码开发" />
+    <MESSAGE value="数据导出功能代码开发" />
+    <MESSAGE value="微信小程序代码开发" />
+    <MESSAGE value="微信小程序和后端代码开发" />
+    <option name="LAST_COMMIT_MESSAGE" value="微信小程序和后端代码开发" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
