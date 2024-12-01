@@ -27,3 +27,11 @@ export const getEmployeeList = (params: any) =>
     'method': 'get',
     'params': params
   })
+
+  // 启用禁用员工账号
+export const enableOrDisableEmployee = (params: any) =>
+  request({
+    'url': `/employee/status/${params.status}`,
+    'method': 'POST',
+    'params': {id: params.id}
+  })
