@@ -11,3 +11,4 @@ dist/
 .vscode/
 npm-debug.log
 application-dev.yml
+application.yml

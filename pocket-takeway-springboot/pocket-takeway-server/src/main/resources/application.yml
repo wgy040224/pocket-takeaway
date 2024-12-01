@@ -52,3 +52,4 @@ pocket:
   wechat:
     appid: ${pocket.wechat.appid}
     secret: ${pocket.wechat.secret}
+  shop
