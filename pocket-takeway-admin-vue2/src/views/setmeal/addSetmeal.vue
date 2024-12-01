@@ -105,6 +105,15 @@
             </image-upload>
           </el-form-item>
         </div>
+        <!-- <el-form-item
+          label="商品码:"
+          prop="code"
+        >
+          <el-input
+            v-model="ruleForm.code"
+            placeholder="请输入商品码"
+          />
+        </el-form-item> -->
         <div class="address">
           <el-form-item label="套餐描述:">
             <el-input v-model="ruleForm.description"
@@ -139,6 +148,17 @@
                :visible.sync="dialogVisible"
                width="60%"
                :before-close="handleClose">
+      <el-input v-model="value"
+                class="seachDish"
+                placeholder="请输入菜品名称进行搜索"
+                style="width: 293px; height: 40px"
+                size="small"
+                clearable>
+        <i slot="prefix"
+           class="el-input__icon el-icon-search"
+           style="cursor: pointer"
+           @click="seachHandle" />
+      </el-input>
       <AddDish v-if="dialogVisible"
                ref="adddish"
                :check-list="checkList"

@@ -49,12 +49,3 @@ export const enableOrDisableEmployee = (params: any) => {
     params: { id:params.id }
   })
 }
-
-// 根据类型查询分类：1为菜品分类 2为套餐分类
-export const getCategoryByType = (params: any) => {
-  return request({
-    url: `/category/list`,
-    method: 'get',
-    params: params
-  })
-}

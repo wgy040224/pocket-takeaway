@@ -10,7 +10,7 @@
               style="width: 149px; height: 38px"
               alt=""
             />
-            <!-- <span class="title-label">口袋外卖</span> -->
+            <!-- <span class="title-label">苍穹外卖</span> -->
           </div>
           <el-form-item prop="username">
             <el-input
@@ -94,13 +94,12 @@ export default class extends Vue {
 
   // 登录
   private handleLogin() {
-    (this.$refs.loginForm as ElForm).validate(async (valid: boolean) => {
+    ;(this.$refs.loginForm as ElForm).validate(async (valid: boolean) => {
       if (valid) {
         this.loading = true
         await UserModule.Login(this.loginForm as any)
           .then((res: any) => {
             if (String(res.code) === '1') {
-              //登录成功，跳转到系统首页
               this.$router.push('/')
             } else {
               // this.$message.error(res.msg)
