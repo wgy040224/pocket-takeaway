@@ -1,1 +1,13 @@
 pocket-takeway-springboot/.gitignore
+**/target
+.idea
+*.iml
+*.class
+*Test.java
+**/test
+.DS_Store
+**/node_modules
+dist/
+.vscode/
+npm-debug.log
+application-dev.yml
